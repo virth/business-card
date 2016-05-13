@@ -2,3 +2,5 @@ typings
 /frontend/app/**/*.js
 /frontend/app/**/*.map
 node_modules
+.vscode
+*.log
