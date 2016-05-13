@@ -1,3 +1,6 @@
-<ul>
-    <li *ngFor="let card of businessCards">{{card.name}}</li>
-</ul>
+<p>...bitte wählen Sie eine Karte aus...</p>
+
+<div *ngFor="let card of businessCards" (click)="select(card)">
+<h4>{{card.name}}</h4>
+<img alt="card preview" src="" />
+</div>

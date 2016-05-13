@@ -7,6 +7,9 @@ import { BusinessCard} from './business-card'
 })
 
 export class CardSelectionComponent {
+    select(card: BusinessCard) {
+        alert("route to card detail");  
+    }
      businessCards :BusinessCard[] = [
     {
       id: 1,
