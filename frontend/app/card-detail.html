@@ -1,0 +1,14 @@
+<div *ngFor="let row of cardDetails">
+    <label>{{row.displayName}}</label><input />
+</div>
+<div>
+    <img alt="big preview image" src="" />
+</div>
+<div>
+    <select>
+        <option value="100">100</option>
+        <option value="300">300</option>
+    </select>
+    <button>bestellen</button>
+    <button (click)="goBack()">zurück</button>
+    <div>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CardSelectionComponent } from './card-selection.component';
+import { CardDetailComponent } from './card-detail.component';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 
 @Component({
@@ -14,6 +15,11 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/route
     path: '/cards',
     name: 'Cards',
     component: CardSelectionComponent
+  },
+  {
+    path: '/detail:id',
+    name: 'Detail',
+    component: CardDetailComponent
   }
 ])
 
